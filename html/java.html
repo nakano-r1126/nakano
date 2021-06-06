@@ -1,0 +1,109 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="java.css">
+  <title>ポートフォリオ</title>
+</head>
+<body>
+  <div id="main">
+    <h1>メニュー</h1>
+    <div class="menu">
+      <a href = "top.html"><p class = "pro">プロフィール</p></a>
+      <input id="acd-check1" class="acd-check" type="checkbox">
+      <label class="pro" for="acd-check1">ポートフォリオ</label>
+      <div class = "in_menu">
+        <a href = "html.html"><p class = "link1">html</p></a>
+        <a href = "java.html"><p class = "link1">java</p></a>
+        <a href = "android.html"><p class = "link1">Android</p></a>
+      </div>
+    </div>
+  </div>
+  <div id = "content">
+    <h2>java</h2>
+    <div class = "sub">
+      <p>javaでservletとjsp、データベースはprogressSQLを使用し、登録サイトの作成</p>
+      <p>をしました。</p>
+      <div class = "img">
+        <img src=".jpg">
+      </div>
+      <p>ログイン画面です。IDとpasswordを入力しテーブルに登録済みのデータと一致した場合</p>
+      <p>検索画面へ遷移します。不一致か空欄の場合入力欄をリセットします。</p>
+      <p>※ID、password登録機能なし、画像なし</p>
+      <br>
+    </div>
+    <div class = "sub">
+      <div class = "img">
+        <img src="../img/検索1p.jpg">
+      </div>
+      <p></p>
+      <div class = "img">
+        <img src="../img/検索2p.jpg">
+      </div>
+      <p></p>
+      <p>検索画面の初期表示です。テーブル内データを3件ずつ表示します。</p>
+      <p>検索機能、登録機能、更新昨日、削除昨日、ページング（未完成)の機能があります。</p>
+      <p>登録機能は、登録ボタンを押すと登録画面へ遷移</p>
+      <p>更新機能はラジオボタンで更新させたいデータを選択し、更新ボタンを押すと更新画面へ遷移</p>
+      <p>削除機能は下部で説明します。</p>
+      <br><br>
+    </div>
+    <div class = "sub">
+      <div class = "img">
+        <img src="../img/検索.jpg">
+      </div>
+      <p></p>
+      <div class = "img">
+        <img src="../img/検索結果.jpg">
+      </div>
+      <p></p>
+      <p>検索機能です。</p>
+      <p>コード検索で音楽コードを、CDタイトル検索でCDタイトルをそれぞれテキストボックに入力後</p>
+      <p>検索ボタンを押下すると部分一致検索をします。</p>
+      <p>どちらか片方の入力でも検索可能です。</p>
+      <p>リセットボタンはコード検索、CDタイトル検索に入力された値をクリアします。</p>
+    </div>
+    <div class = "sub">
+      <div class = "img">
+        <img src="../img/登録エラー.jpg">
+      </div>
+      <p></p>
+      <div class = "img">
+        <img src="../img/登録決定.jpg">
+      </div>
+      <p></p>
+      <p>登録画面です。テーブルに新規データを登録します。</p>
+      <p>未入力項目があればテキストボックスが赤くなり(画像はなしでも登録可)、赤字で 入力必須です と表示されます。
+        <p>音楽コード重複の場合はエラーページへ遷移し、音楽コードと値段は数字以外は登録できないです。</p>
+        <p>必要項目入力後、登録ボタンを押すと選択画面が上部にでるので、OKを押すとテーブルにデータが登録されます。</p>
+        <p>キャンセルと押すと登録はしません。<p>
+          <p>左下の戻るボタンを押すと前の画面へ戻ります。<p>
+          </div>
+          <div class = "sub">
+            <div class = "img">
+              <img src="../img/更新.jpg">
+            </div>
+            <p></p>
+            <p>更新画面です。前画面で選択した音楽コードのデータがテキストボックス内に表示されます。</p>
+            <p>音楽コードは変更できません。その他の項目で変更した値が更新されます。</p>
+            <p>その他の機能は登録と同じです。</p>
+          </div>
+          <div class = "sub">
+            <div class = "img">
+              <img src="../img/削除.jpg">
+            </div>
+            <p></p>
+            <div class = "img">
+              <img src="../img/削除後.jpg">
+            </div>
+            <p></p>
+            <p>削除機能です。ラジオボタンで選択したデータをテーブルから削除します。</p>
+            <p>データー選択後、削除ボタンを押すと選択肢がでます。</p>
+            <p>OKを押すと削除、キャンセルを押すと何もしません。<p>
+            </div>
+            <div class = "sub">
+              <p>ソースコードはgithubで公開しています→<a href="https://github.com/nakano-r1126/kensyu" target="_blank" rel="norefferrer" class="link">
+                Git hub</p>
+              </div>
+            </div>
+          </body>
+          </html>

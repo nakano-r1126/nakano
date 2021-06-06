@@ -1,0 +1,109 @@
+@import url("sanitize.css");
+h1{
+  font-size: 24px;
+  color: black;
+  border-bottom: 1px solid;
+}
+p{
+  font-size: 14px;
+}
+h2{
+  font-size: 24px;
+  color: black;
+  border-bottom: 1px solid;
+  border-color: black;
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  padding: 10px;
+}
+#content {
+  box-sizing: border-box;
+  margin-left: 220px;
+  padding: 20px;
+  padding-left:50px;
+  width:1000px;
+  
+}
+#main{
+  box-sizing: border-box;
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  overflow: auto;
+  background: #d3d3d3;
+  padding: 20px;
+  padding-top: 40px;
+}
+.menu{
+  padding: 0;
+  position: relative;
+}
+.pro{
+  color: #black;
+  background: white;
+  margin-bottom: 3px;
+  line-height:1.5;
+  padding: 0.5em;
+  list-style: none;
+  border-radius: 5px;
+  font-size: 15px;
+  display: block;
+}
+.pro:hover{
+  opacity: 0.8;
+}
+.sub{
+  border: 1px solid black;
+  margin-top:1em;
+  padding: 10px;
+}
+.main{
+  list-style: circle;
+}
+.sub_title{
+  border-bottom: 1px solid;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.acd-check{
+  display: none;
+}
+.in_menu{
+  visibility: hidden;
+}
+.acd-check:checked + .pro + .in_menu{
+  visibility: visible;
+}
+.link1{
+  background-color:#ffffff;
+  opacity: 0.5;
+  margin: 3px;
+  padding: 0.5em;
+  padding-left:1em;
+  border-bottom: 5px;
+}
+.link1:hover{
+  background-color: #fff;
+  opacity: 0.8;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+.link{
+  text-decoration-style: 1px solid;
+  color: blue;
+}
+.img{
+  border: 1px solid #4ea7ff;;
+  display: inline-block;
+  padding: 2px;
+}
+.table{
+  width: 400px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
