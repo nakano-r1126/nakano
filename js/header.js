@@ -1,4 +1,5 @@
 function writeHeader(rootDir){
+
     $.ajax({
         url: rootDir + "header.html", //パスはcommon.jsが読み込まれたHTMLファイルが基準
         cache: false, //キャッシュを利用するか（お好みで）
